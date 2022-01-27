@@ -7,6 +7,9 @@ window.onload = function() {
     const title = document.getElementById('title')
     let saved_colors = []
     const buttons = document.getElementsByClassName('btn')
+
+//arranged the colors in the same order of array "buttons" created above
+// green button 0 / red button 1 / yellow button 2 / blue button 3
     const colors = ['green', 'red', 'yellow', 'blue']
 
     var level = 0
@@ -15,6 +18,7 @@ window.onload = function() {
     startGame()
 
     function startGame() {
+      console.log('game started')
       level = 0
       clicks = 0
       saved_colors = []
@@ -27,8 +31,7 @@ window.onload = function() {
       level += 1
       clicks = 0
 
-      console.log('level ' + level)
-      console.log('clicks ' + clicks)
+      console.log('generating level ' + level)
 
       var x = Math.floor(Math.random() * 4)
       let btn_lvl = buttons[x]
@@ -38,7 +41,7 @@ window.onload = function() {
       saved_colors.push(colors[x])
 
       console.log('button color generated ' + btn_lvl.className)
-      console.log('saved colors ' + saved_colors)
+      console.log(saved_colors)
 
       title.innerText = 'Level ' + level
 
@@ -78,8 +81,9 @@ window.onload = function() {
       remove_BtnListner()
       document.body.classList.add('game-over')
       playAudio('wrong')
-      setTimeout( function(){
-      document.body.classList.remove('game-over')},1000)
+      setTimeout(function() {
+        document.body.classList.remove('game-over')
+      }, 1000)
     }
 
     function add_BtnListner() {
@@ -106,5 +110,6 @@ window.onload = function() {
       var audio = new Audio(src)
       audio.play()
     }
+
   }
 }
