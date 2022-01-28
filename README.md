@@ -24,5 +24,5 @@
 
 -----------------------
 
-###### Loosing The GAME
+###### Losing The GAME
 <img width="60%" height="auto" src="assets/losing-game.gif" />
