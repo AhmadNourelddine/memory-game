@@ -3,6 +3,8 @@
 ###### [ Challenge Your Self and Test Your Memory ]
 
 
+<img width="60%" height="auto" src="assets/Home-page.png" />
+
 
 ## How To Play The Game :
 ------------------------
