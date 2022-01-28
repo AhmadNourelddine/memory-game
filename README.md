@@ -13,7 +13,7 @@
 
 2. The player should memorize this color
 
-3. Each time the game generates a new level the player should repress the previous sequence of generated
+3. Each time the game generates a new color the player should repress the previous sequence of generated
    colors plus the new generated color
 
 ------------------------
