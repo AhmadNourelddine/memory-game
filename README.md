@@ -1,10 +1,10 @@
-#The Memory Game
+# The Memory Game
 
-######[ Challenge Your Self and Test Your Memory ]
+###### [ Challenge Your Self and Test Your Memory ]
 
 
 
-##How To Play The Game :
+## How To Play The Game :
 ------------------------
 
 1.  Each level The game will generate a random color
@@ -14,4 +14,13 @@
 3. Each time the game generates a new level the player should repress the previous sequence of generated
    colors plus the new generated color
 
-<img src="assets/playing-game.gif" />
+------------------------
+
+
+###### Playing The GAME
+<img width="60%" height="auto" src="assets/playing-game.gif" />
+
+-----------------------
+
+###### Loosing The GAME
+<img width="60%" height="auto" src="assets/losing-game.gif" />
